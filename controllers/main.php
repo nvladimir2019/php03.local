@@ -8,9 +8,14 @@ function action_index(){
 function action_contacts(){
 
     $phones = model_contacts_getPhones();
+    $adress = model_contacts_getAddress();
+    $emails = model_contacts_getEmail();
+
     renderView("contacts",[
         "title"=>"Contacts Page",
-        "ph"=>$phones
+        "ph"=>$phones,
+        "adr"=>$adress,
+        "eml"=>$emails
     ]);
 }
 

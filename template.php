@@ -6,8 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$title?></title>
+    <link rel="stylesheet" href="/resources/css/main.css">
 </head>
 <body>
+<div class = "contanier">
     <ul>
         <li><a href="/">Main</a></li>
         <li><a href="/main/contacts">Contacts</a></li>
@@ -17,7 +19,7 @@
 <?php
     include $viewFile;
 ?>
-
+</div>
 
 </body>
 

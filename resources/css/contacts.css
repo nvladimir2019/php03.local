@@ -1,0 +1,17 @@
+div:nth-child(3) {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+div:nth-child(3) ul h3 {
+    background-color: #a3a3a3;
+}
+
+div>ul {
+    margin: 20px;
+    padding: 10px;
+
+}
