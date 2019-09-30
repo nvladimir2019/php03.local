@@ -4,7 +4,6 @@ div:nth-child(3) {
     flex-direction: row;
     justify-content: space-between;
 
-
 }
 div:nth-child(3) ul h3 {
     background-color: #a3a3a3;

@@ -1,1 +1,4 @@
-<h1>About</h1>
+<img src = "<?=$im?> ">
+<h2>About Us</h2>
+<p><?=$tx?></p>
+

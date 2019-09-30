@@ -1,5 +1,6 @@
 <?php
 include DOCROOT."models/contacts.php";
+include DOCROOT."models/about.php";
 
 function action_index(){
     renderView("main",["title"=>"Main Page"]);
@@ -20,5 +21,12 @@ function action_contacts(){
 }
 
 function action_about(){
-    renderView("about",["title"=>"About Page"]);
+    $image = model_about_getImg();
+    $texts = model_about_getText();
+    renderView("about",[
+        "title"=>"About Page",
+        "im"=>$image,
+        "tx"=>$texts
+
+    ]);
 }
